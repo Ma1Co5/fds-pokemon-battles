@@ -1,4 +1,11 @@
+"""Submission 2 - base, extended and advanced features; logistic regression (L1) or Random Forest, whichever scores higher in 5-fold CV.
 
+Run from the repository root:
+    python src/model_advanced_features.py [output_csv]
+The output file defaults to submission_advanced_features.csv.
+"""
+import sys
+OUTPUT_CSV = sys.argv[1] if len(sys.argv) > 1 else "submission_advanced_features.csv"
 #blocco 1
 # This Python 3 environment comes with many helpful analytics libraries installed
 # It is defined by the kaggle/python Docker image: https://github.com/kaggle/docker-python
