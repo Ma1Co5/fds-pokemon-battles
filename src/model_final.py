@@ -1,3 +1,12 @@
+"""Submission 1 - final model: hidden P2 knock-outs, P2 team reconstruction,
+out-of-fold encoders and a soft-voting ensemble (logistic regression + two HistGradientBoosting).
+
+Run from the repository root:
+    python src/model_final.py [output_csv]
+The output file defaults to submission_final.csv.
+"""
+import sys
+OUTPUT_CSV = sys.argv[1] if len(sys.argv) > 1 else "submission_final.csv"
 
 #blocco 1
 #data import
